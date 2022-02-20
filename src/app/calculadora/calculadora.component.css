@@ -1,0 +1,33 @@
+
+.jumbotron{
+    margin-top: 15%;
+}
+.btn{
+    margin: 2%;
+    background-color: #3A506B;
+    border-color: #3A506B;
+}
+.success {
+    background-color: chartreuse;
+    color: #3A506B;
+}
+.clear {
+    background-color: tomato;
+}
+.opr{
+    background-color: #5BC;
+}
+
+.painel{
+    margin-left: 5%;
+}
+form{
+    padding: 3%;
+    border: 1px solid gray;
+    border-radius: 20px;
+    background-color: #0B132B;
+}
+
+input{
+    text-align: right;
+}

@@ -1,0 +1,33 @@
+<div class="jumbotron d-flex justify-content-center">
+  <form action="" name="calculadora">
+    <div id="input" class="mb-2">
+      <input type="text" id="visor" name="visor" readonly>
+    </div>
+    <div class="painel">
+      <div id="linha-1" class="mb-2">
+        <input type="button" value="7" class="btn btn-primary" (click)="button(7)">
+        <input type="button" value="8" class="btn btn-primary" (click)="button(8)">
+        <input type="button" value="9" class="btn btn-primary" (click)="button(9)">
+        <input type="button" value="/" class="btn btn-primary opr" (click)="operation('/')">
+      </div>
+      <div id="linha-2" class="mb-2">
+        <input type="button" value="4" class="btn btn-primary" (click)="button(4)">
+        <input type="button" value="5" class="btn btn-primary" (click)="button(5)">
+        <input type="button" value="6" class="btn btn-primary" (click)="button(6)">
+        <input type="button" value="*" class="btn btn-primary opr" (click)="operation('*')">
+      </div>
+      <div id="linha-3" class="mb-2">
+        <input type="button" value="1" class="btn btn-primary" (click)="button(1)">
+        <input type="button" value="2" class="btn btn-primary" (click)="button(2)">
+        <input type="button" value="3" class="btn btn-primary" (click)="button(3)">
+        <input type="button" value="+" class="btn btn-primary opr" (click)="operation('+')">
+      </div>
+      <div id="linha-4" class="mb-2">
+        <input type="button" value="C" class="btn btn-primary clear" (click)="reset()">
+        <input type="button" value="0" class="btn btn-primary" (click)="button(0)">
+        <input type="button" value="-" class="btn btn-primary opr" (click)="operation('-')">
+        <input type="button" value="=" class="btn btn-primary success" (click)="result()">
+      </div>
+    </div>
+  </form>
+</div>
